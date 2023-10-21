@@ -96,7 +96,7 @@ nav li:first-child{
 }
 @media(max-width: 500px) {
     .firstSection {
-        margin-top: 30%;
+        margin-top: 42%;
     }
     .firstSection h1,h2 {
         margin-top: 15px;
@@ -106,7 +106,7 @@ nav li:first-child{
     }
     .firstSection h2 {
         font-size: 24px;
-        margin-bottom: 60%;
+        margin-bottom: 48%;
     }
 }
 .firstSection img {
