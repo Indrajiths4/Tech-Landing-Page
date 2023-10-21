@@ -150,7 +150,7 @@ nav li:first-child{
 }
 
 .thirdSection {
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: rgb(255, 255, 255);
 }
 .thirdSection h1,.thirdSection h2 {
@@ -167,10 +167,10 @@ nav li:first-child{
 }
 @media(max-width: 500px) {
     .thirdSection {
-        margin-top: 5%;
+        /* margin-top: 5%; */
     }
     .thirdSection h1,h2 {
-        margin-top: 15px;
+        /* margin-top: 15px; */
     }
     .thirdSection h1 {
         font-size: 23px;
@@ -185,7 +185,7 @@ nav li:first-child{
     min-width: 100%;
 } 
 .fourthSection {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     background-color: rgb(0, 0, 0);
 }
 .fourthSection h1,.fourthSection h2,.fourthSection h3 {
@@ -205,10 +205,10 @@ nav li:first-child{
 }
 @media(max-width: 500px) {
     .fourthSection {
-        margin-top: 5%;
+        
     }
     .fourthSection h1,h2 {
-        margin-top: 15px;
+        /* margin-top: 15px; */
     }
     .fourthSection h1 {
         font-size: 23px;
