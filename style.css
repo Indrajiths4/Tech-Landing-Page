@@ -130,6 +130,7 @@ footer{
 .mainfooter div {
     width: 30%;
 }
+
 .firstfooter ul {
     list-style: none;
     display: flex;
@@ -137,6 +138,9 @@ footer{
 }
 .firstfooter ul li{
     margin-right: 20px;
+}
+.secondfooter ul {
+    list-style: none;
 }
 .secondfooter a {
     color: black;
