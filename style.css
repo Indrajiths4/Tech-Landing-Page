@@ -113,3 +113,36 @@ nav li:first-child{
     max-width: 100%;
     min-width: 100%;
 }
+
+
+
+
+footer{
+    height: 40%;
+    background-color: white;
+}
+.mainfooter {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.mainfooter div {
+    width: 30%;
+}
+.firstfooter ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+.firstfooter ul li{
+    margin-right: 20px;
+}
+.secondfooter a {
+    color: black;
+    text-decoration: none;
+}
+#copyright {
+    font-size: 12px;
+    text-align: center;
+}
