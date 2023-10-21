@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: whitesmoke;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav li{
+    height: 50px;
+    /* transition: transform 0.2s; */
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+}
+nav img {
+    max-width: 100%;
+    max-height: 100%;
+}
+nav a:hover {
+    /* transform: scale(1.1); */
+    background-color: whitesmoke;
+}
+nav li:first-child{
+    margin-right: auto;
+}
+.sidebar {
+    position: fixed;
+    top:0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.sidebar li{
+    width: 100%;
+}
+.sidebar a {
+    width: 100%;
+}
+#menu-button {
+    display: none;
+}
+@media(max-width:800px) {
+    .hideOnMobile {
+        display: none;
+    }
+    #menu-button {
+        display: block;
+    }
+}
+@media(max-width:400px) {
+    .sidebar {
+        width: 100%;
+    }
+}
+.firstSection {
+    /* background-color: red; */
+    margin-top: 70px;
+}
+.firstSection h1,h2 {
+    text-align: center;
+    margin-top: 20px;
+}
+.firstSection h1 {
+    font-size: 50px;
+}
+.firstSection h2 {
+    font-size: 40px;
+}
+@media(max-width: 500px) {
+    .firstSection {
+        margin-top: 30%;
+    }
+    .firstSection h1,h2 {
+        margin-top: 15px;
+    }
+    .firstSection h1 {
+        font-size: 19px;
+    }
+    .firstSection h2 {
+        font-size: 18px;
+        margin-bottom: 60%;
+    }
+}
+.firstSection img {
+    max-width: 100%;
+    min-width: 100%;
+}
