@@ -82,7 +82,6 @@ nav li:first-child{
     }
 }
 .firstSection {
-    /* background-color: red; */
     margin-top: 70px;
 }
 .firstSection h1,h2 {
@@ -103,10 +102,10 @@ nav li:first-child{
         margin-top: 15px;
     }
     .firstSection h1 {
-        font-size: 23px;
+        font-size: 25px;
     }
     .firstSection h2 {
-        font-size: 22px;
+        font-size: 24px;
         margin-bottom: 60%;
     }
 }
