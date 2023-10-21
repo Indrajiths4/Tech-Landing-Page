@@ -84,7 +84,7 @@ nav li:first-child{
 .firstSection {
     margin-top: 70px;
 }
-.firstSection h1,h2 {
+.firstSection h1,.firstSection h2 {
     text-align: center;
     margin-top: 20px;
 }
@@ -102,10 +102,10 @@ nav li:first-child{
         margin-top: 15px;
     }
     .firstSection h1 {
-        font-size: 25px;
+        font-size: 23px;
     }
     .firstSection h2 {
-        font-size: 24px;
+        font-size: 21px;
         margin-bottom: 48%;
     }
 }
@@ -113,13 +113,120 @@ nav li:first-child{
     max-width: 100%;
     min-width: 100%;
 }
+.secondSection {
+    margin-top: 70px;
+    background-color: rgb(0, 0, 0);
+}
+.secondSection h1,.secondSection h2 {
+    color: white;
+    text-align: center;
+}
+.secondSection h1 {
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.secondSection h2 {
+    font-size: 40px;
+}
+@media(max-width: 500px) {
+    .secondSection {
+        margin-top: 42%;
+    }
+    .secondSection h1,h2 {
+        margin-top: 15px;
+    }
+    .secondSection h1 {
+        font-size: 23px;
+    }
+    .secondSection h2 {
+        font-size: 21px;
+        margin-bottom: 48%;
+    }
+}
+.secondSection img {
+    max-width: 100%;
+    min-width: 100%;
+}
 
-
-
+.thirdSection {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+}
+.thirdSection h1,.thirdSection h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.thirdSection h1 {
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.thirdSection h2 {
+    font-size: 40px;
+}
+@media(max-width: 500px) {
+    .thirdSection {
+        margin-top: 5%;
+    }
+    .thirdSection h1,h2 {
+        margin-top: 15px;
+    }
+    .thirdSection h1 {
+        font-size: 23px;
+    }
+    .thirdSection h2 {
+        font-size: 21px;
+        margin-bottom: 48%;
+    }
+}
+.thirdSection img {
+    max-width: 100%;
+    min-width: 100%;
+} 
+.fourthSection {
+    margin-top: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.fourthSection h1,.fourthSection h2,.fourthSection h3 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+#red {
+    color: red;
+}
+.fourthSection h1 {
+    font-size: 50px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+.fourthSection h2 {
+    font-size: 40px;
+}
+@media(max-width: 500px) {
+    .fourthSection {
+        margin-top: 5%;
+    }
+    .fourthSection h1,h2 {
+        margin-top: 15px;
+    }
+    .fourthSection h1 {
+        font-size: 23px;
+    }
+    .fourthSection h2 {
+        font-size: 21px;
+        margin-bottom: 48%;
+    }
+}
+.fourthSection img {
+    max-width: 100%;
+    min-width: 100%;
+} 
 
 footer{
     height: 40%;
     background-color: white;
+    box-shadow: 3px 0px 20px rgba(0,0,0,0.2);
 }
 .mainfooter {
     padding: 40px;
