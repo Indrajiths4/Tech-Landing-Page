@@ -238,6 +238,51 @@ nav li:first-child{
     min-width: 100%;
 } 
 
+.fifthSection {
+    min-width: 100%;
+    max-width: 100%;
+}
+.fifthSection h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+.fifthSection p {
+    font-size: 1.15rem;
+}
+.aboutus {
+    background-color: white;
+    margin: 8% 18%;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
+}
+.about {
+    padding: 5%;
+}
+.about img {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+@media(max-width:500px) {
+    .aboutus {
+        margin: 5% 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
     height: 40%;
     background-color: white;
