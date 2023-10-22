@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: whitesmoke;
     min-height: 100vh;
@@ -121,6 +124,10 @@ nav li:first-child{
     color: white;
     text-align: center;
 }
+.secondSection p {
+    text-align: center;
+    color: white;
+}
 .secondSection h1 {
     font-size: 50px;
     padding-top: 40px;
@@ -162,6 +169,10 @@ nav li:first-child{
     padding-top: 40px;
     padding-bottom: 0px;
 }
+.thirdSection p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
 .thirdSection h2 {
     font-size: 40px;
 }
@@ -193,12 +204,16 @@ nav li:first-child{
     text-align: center;
 }
 #red {
-    color: red;
+    color: rgb(218, 67, 67);
 }
 .fourthSection h1 {
     font-size: 50px;
     padding-top: 40px;
     padding-bottom: 0px;
+}
+.fourthSection p {
+    text-align: center;
+    color: white;
 }
 .fourthSection h2 {
     font-size: 40px;
@@ -252,6 +267,9 @@ footer{
 .secondfooter a {
     color: black;
     text-decoration: none;
+}
+.thirdfooter ul {
+    list-style: none;
 }
 #copyright {
     font-size: 12px;
