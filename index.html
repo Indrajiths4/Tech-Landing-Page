@@ -15,18 +15,18 @@
         <ul class="sidebar">
             <li onclick=hideSideBar()><a href=""><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
             <li><a href="">Home</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="#Aus">About</a></li>
             <li><a href="">Services</a></li>
             <li><a href="">Contact</a></li>
-            <li><a href="">Login</a></li>
+            <li><a href="#login">Login</a></li>
         </ul>
         <ul>
             <li><a href=""><img src="images/download-removebg-preview.png" alt="Apple logo"></a></li>
             <li class="hideOnMobile"><a href="">Home</a></li>
-            <li class="hideOnMobile"><a href="">About</a></li>
+            <li class="hideOnMobile"><a href="#Aus">About</a></li>
             <li class="hideOnMobile"><a href="">Services</a></li>
             <li class="hideOnMobile"><a href="">Contact</a></li>
-            <li class="hideOnMobile"><a href="">Login</a></li>
+            <li class="hideOnMobile"><a href="#login">Login</a></li>
             <li id="menu-button" onclick=showSideBar()><a><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
         </ul>
     </nav>
@@ -54,7 +54,7 @@
         <p id="link"><a href="https://www.apple.com/in/apple-watch-series-9/?afid=p238%7CsFf3S3kdc-dc_mtid_187079nc38483_pcrid_677625594716_pgrid_114964060447_pntwk_g_pchan__pexid_100531250057_&cid=aos-IN-kwgo-brand--slid-Y1AaPIYT--product-">Learn more</a> > <a href="https://www.apple.com/in/apple-watch-series-9/?afid=p238%7CsFf3S3kdc-dc_mtid_187079nc38483_pcrid_677625594716_pgrid_114964060447_pntwk_g_pchan__pexid_100531250057_&cid=aos-IN-kwgo-brand--slid-Y1AaPIYT--product-">Buy</a> ></p>
         <img src="images/Apple-Watch-S9-hero-230912_Full-Bleed-Image.jpg.large.jpg" alt="">
     </div>
-    <div class="fifthSection">
+    <div class="fifthSection" id="Aus">
         <div class="aboutus">
             <div class="about">
                 <h2>ABOUT US</h2>
@@ -63,6 +63,35 @@
 
             </div>
         </div>
+    </div>
+    
+    <div class="loginsection" id="login">
+        <section>
+        <div class="login-box">
+            <form action="">
+                <h2>Login</h2>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
+                    <input type="password" required>
+                    <label>Password</label>
+                </div>
+                <div class="remember-forget">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="">Forget Password?</a>
+                </div>
+                <button type="submit">Login</button>
+                <div class="register-link">
+                    <p>Don't have an account?
+                    <a href="">Register</a></p>
+                </div>
+            </form>
+        </div>
+        </section>
     </div>
     <footer>
         <div class="mainfooter">
@@ -94,5 +123,7 @@
         <p id="copyright">Copyright © 2023 Apple Inc. All rights reserved.</p>
     </footer>
     <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 </html>
