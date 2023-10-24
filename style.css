@@ -140,7 +140,7 @@ nav li:first-child{
 @media(max-width: 500px) {
     .secondSection {
         margin-top: 42%;
-        position: relative;
+        
     }
     .secondSection h1,h2 {
         margin-top: 15px;
@@ -152,11 +152,7 @@ nav li:first-child{
         font-size: 21px;
         margin-bottom: 48%;
     }
-    .secondSection p {
-        position: absolute;
-        top: 22%;
-        right: 34%;
-    }
+    
 }
 .secondSection img {
     max-width: 100%;
@@ -186,7 +182,7 @@ nav li:first-child{
 @media(max-width: 500px) {
     .thirdSection {
         /* margin-top: 5%; */
-        position: relative;
+        
     }
     .thirdSection h1,h2 {
         /* margin-top: 15px; */
@@ -198,11 +194,7 @@ nav li:first-child{
         font-size: 21px;
         margin-bottom: 48%;
     }
-    .thirdSection p {
-        position: absolute;
-        top: 25%;
-        right: 34%;
-    }
+    
 }
 .thirdSection img {
     max-width: 100%;
@@ -233,7 +225,7 @@ nav li:first-child{
 }
 @media(max-width: 500px) {
     .fourthSection {
-        position: relative;
+        
     }
     .fourthSection h1,h2 {
         /* margin-top: 15px; */
@@ -245,11 +237,7 @@ nav li:first-child{
         font-size: 21px;
         margin-bottom: 48%;
     }
-    .fourthSection p {
-        position: absolute;
-        top: 24%;
-        right: 34%;
-    }
+    
 }
 .fourthSection img {
     max-width: 100%;
