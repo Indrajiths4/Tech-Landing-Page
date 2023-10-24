@@ -140,6 +140,7 @@ nav li:first-child{
 @media(max-width: 500px) {
     .secondSection {
         margin-top: 42%;
+        position: relative;
     }
     .secondSection h1,h2 {
         margin-top: 15px;
@@ -150,6 +151,11 @@ nav li:first-child{
     .secondSection h2 {
         font-size: 21px;
         margin-bottom: 48%;
+    }
+    .secondSection p {
+        position: absolute;
+        top: 22%;
+        right: 34%;
     }
 }
 .secondSection img {
@@ -180,6 +186,7 @@ nav li:first-child{
 @media(max-width: 500px) {
     .thirdSection {
         /* margin-top: 5%; */
+        position: relative;
     }
     .thirdSection h1,h2 {
         /* margin-top: 15px; */
@@ -190,6 +197,11 @@ nav li:first-child{
     .thirdSection h2 {
         font-size: 21px;
         margin-bottom: 48%;
+    }
+    .thirdSection p {
+        position: absolute;
+        top: 25%;
+        right: 34%;
     }
 }
 .thirdSection img {
@@ -221,7 +233,7 @@ nav li:first-child{
 }
 @media(max-width: 500px) {
     .fourthSection {
-        
+        position: relative;
     }
     .fourthSection h1,h2 {
         /* margin-top: 15px; */
@@ -232,6 +244,11 @@ nav li:first-child{
     .fourthSection h2 {
         font-size: 21px;
         margin-bottom: 48%;
+    }
+    .fourthSection p {
+        position: absolute;
+        top: 24%;
+        right: 34%;
     }
 }
 .fourthSection img {
@@ -267,6 +284,12 @@ nav li:first-child{
 @media(max-width:500px) {
     .aboutus {
         margin: 5% 5%;
+    }
+    .about h2 {
+        font-size: 1.5em;
+    }
+    .about p {
+        font-size: 0.9em;
     }
 }
 
